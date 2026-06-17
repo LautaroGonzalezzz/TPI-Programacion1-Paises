@@ -91,15 +91,15 @@ def mostrar_paises(lista):
         return
 
     print("-" * 90)
-    print(f"{'Nombre':20}{'Población':15}{'Superficie':15}{'Continente':20}")
+    print(f"{'Nombre':20} | {'Población':15} | {'Superficie':15} | {'Continente':15}")
     print("-" * 90)
 
     for p in lista:
         print(
-            f"{p['nombre']:20}"
-            f"{p['poblacion']:15,}"
-            f"{p['superficie']:15,}"
-            f"{p['continente']:20}"
+            f"{p['nombre']:20} | "
+            f"{p['poblacion']:15,} | "
+            f"{p['superficie']:15,} | "
+            f"{p['continente']:15}"
         )
 
 def pedir_entero_positivo(texto):
@@ -158,6 +158,9 @@ def actualizar_pais(paises):
 
 def buscar_pais(paises):
     texto = input("Buscar: ").lower()
+    if not texto:
+        error("Texto vacío.")
+        return
     resultados = [p for p in paises if texto in p["nombre"].lower()]
     mostrar_paises(resultados)
 
