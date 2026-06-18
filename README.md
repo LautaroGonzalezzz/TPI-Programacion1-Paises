@@ -82,7 +82,7 @@ https://github.com/LautaroGonzalezzz/TPI-Programacion1-Paises.git
 
 https://youtu.be/lijiqkshysc?si=yaf0whvKL-hn4x3B
 
-#Pdf Explicativo
+## Pdf Explicativo
 
 https://1drv.ms/w/c/5bfa0b6cab00cd6a/IQCr062gAK2sT4tMkPhZmCUhAeg4y7moKF6SMYs0kezyy3w?e=rMPH5A
 
